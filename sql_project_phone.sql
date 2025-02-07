@@ -1,7 +1,18 @@
+create table sample_dbs(
+    smartphones varchar(50),
+    brand varchar(50),
+    model varchar(50),
+    ram int,
+    storage int,
+    color varchar(50),
+    free varchar(50),
+    FinalPrice decimal(10,3),
+    primary key(smartphones)
+);
 select * from sample_dbs;
 describe sample_dbs;
--- --1. PRICE ANALYSIS-- 
 
+-- --1. PRICE ANALYSIS-- 
 select brand, AVG('Final Price') as avearge_price from sample_dbs group by brand;
 
 select Smartphone, Brand, ('Final Price') from sample_dbs order by 'Final Price' desc limit 5;
