@@ -1,4 +1,4 @@
-Smartphones-2024 SQL Project
+Smartphones Sales Prediction-2024 SQL Project
 
 Project Overview
 The Smartphones-2024 project is a comprehensive SQL-based data analysis focusing on smartphone specifications, pricing trends, and brand insights. This project leverages structured query language (SQL) to extract, manipulate, and analyze smartphone data efficiently. Advanced SQL concepts such as **joins, triggers, indexing, and stored procedures are incorporated to enhance data processing and ensure database integrity.
